@@ -47,8 +47,6 @@ r6url="https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/001/215/GCA_000001215.4_
 
 trusequrl="https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/705/575/GCA_000705575.1_D._melanogaster_TruSeq_synthetic_long-read_assembly/GCA_000705575.1_D._melanogaster_TruSeq_synthetic_long-read_assembly_genomic.fna.gz"
 
-#mkfifo tmp/{r6scaff,r6ctg,minion}_fifo
-
 wget -O - -q $r6url \
 | tee >( \
   bioawk -c fastx ' { print length($seq) } ' \
