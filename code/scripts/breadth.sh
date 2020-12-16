@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # this script takes in a list of sample names in the s1_list.txt 
 # and a list of VCFs generated with GATK's DiagnoseTargets
 
