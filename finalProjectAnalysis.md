@@ -34,6 +34,10 @@ DISCUSSION
 
 The quality metrics comparison results are mixed, but it is clear that our lab data differs significantly from the published dataset. In the most important quality metrics, sequence depth and breadth, our lab data is significantly worse. To improve, I would need to troubleshoot the library preparation and load more sample for sequencing. Even though my project analysis showed that there is a data quality problem, it does not rule out additional problems in my downstream analysis. Next, I will do variant calling on the published data and cluster it to try to reproduce figure 2A in Zafar et al. 
  
+CODE
+
+[scripts](https://github.com/TatyanaLev/EE282/tree/finalProjectReport/code/scripts)
+ 
 REFERENCES
 
 Wang, Y., Waters, J., Leung, M. et al. Clonal evolution in breast cancer revealed by single nucleus genome sequencing. Nature 512, 155–160 (2014). https://doi.org/10.1038/nature13600
